@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="code.LogConstants CROSS_LINE" />
+      <entry_point TYPE="field" FQNAME="code.LogConstants log" />
+    </entry_points>
+    <pattern value="code.string.IsUnique" />
+    <pattern value="code.string.IsUnique" method="isUnique1" />
+    <pattern value="code.string.IsUnique" method="isUnique2" />
+    <pattern value="code.string.IsUnique" method="isUnique3" />
+    <pattern value="code.string.IsUnique" method="isUnique4" />
+    <pattern value="code.string.IsUnique" method="isUnique5" />
+    <pattern value="code.string.IsUnique" method="isUnique6" />
+    <pattern value="code.string.IsUnique" method="isUnique7" />
+    <pattern value="code.string.LengthOfLongestSubstringWithoutRepeat" />
+    <pattern value="code.LogConstants" />
+    <pattern value="code.string.LengthOfLongestSubstringWithoutRepeat" method="main" />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
