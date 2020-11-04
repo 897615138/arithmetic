@@ -4,6 +4,8 @@
     <entry_points version="2.0">
       <entry_point TYPE="field" FQNAME="code.LogConstants CROSS_LINE" />
       <entry_point TYPE="field" FQNAME="code.LogConstants log" />
+      <entry_point TYPE="field" FQNAME="constant.LogConstant CROSS_LINE" />
+      <entry_point TYPE="field" FQNAME="constant.LogConstant log" />
     </entry_points>
     <pattern value="code.string.IsUnique" />
     <pattern value="code.string.IsUnique" method="isUnique1" />
@@ -16,6 +18,7 @@
     <pattern value="code.string.LengthOfLongestSubstringWithoutRepeat" />
     <pattern value="code.LogConstants" />
     <pattern value="code.string.LengthOfLongestSubstringWithoutRepeat" method="main" />
+    <pattern value="constant.LogConstant" />
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
