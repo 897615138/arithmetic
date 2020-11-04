@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://maven.apache.org/SETTINGS/1.0.0"
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
     <!-- 构建系统本地仓库的路径。其默认值：~/.m2/repository -->
     <!--     <localRepository>${user.home}/.m2/repository</localRepository>-->
@@ -41,7 +41,7 @@
     <!-- <directoryPermissions>775</directoryPermissions> -->
     <!-- </server> -->
     <!-- </servers> -->
-<servers>
+    <servers>
         <server>
             <id>terminus</id>
             <username>readonly</username>
@@ -90,7 +90,7 @@
     <!-- 根据环境参数来调整构建配置的列表。对应 pom.xml 中 profile 元素（只包含 id、activation、repositories、pluginRepositories 和 properties 元素）
         如果一个 settings.xml 中的 profile 被激活，它的值会覆盖任何定义在 pom.xml 中带有相同 id 的 profile -->
     <profiles>
-            <profile>
+        <profile>
             <id>terminus</id>
             <repositories>
                 <repository>
@@ -221,22 +221,22 @@
                     </snapshots>
                 </pluginRepository>
                 <!-- 每个 pluginRepository 元素指定一个 maven 可以用来寻找新插件的远程地址 -->
-<!--                <pluginRepository>-->
-<!--                    <id/>-->
-<!--                    <name/>-->
-<!--                    <releases>-->
-<!--                        <enabled/>-->
-<!--                        <updatePolicy/>-->
-<!--                        <checksumPolicy/>-->
-<!--                    </releases>-->
-<!--                    <snapshots>-->
-<!--                        <enabled/>-->
-<!--                        <updatePolicy/>-->
-<!--                        <checksumPolicy/>-->
-<!--                    </snapshots>-->
-<!--                    <url/>-->
-<!--                    <layout/>-->
-<!--                </pluginRepository>-->
+                <!--                <pluginRepository>-->
+                <!--                    <id/>-->
+                <!--                    <name/>-->
+                <!--                    <releases>-->
+                <!--                        <enabled/>-->
+                <!--                        <updatePolicy/>-->
+                <!--                        <checksumPolicy/>-->
+                <!--                    </releases>-->
+                <!--                    <snapshots>-->
+                <!--                        <enabled/>-->
+                <!--                        <updatePolicy/>-->
+                <!--                        <checksumPolicy/>-->
+                <!--                    </snapshots>-->
+                <!--                    <url/>-->
+                <!--                    <layout/>-->
+                <!--                </pluginRepository>-->
             </pluginRepositories>
         </profile>
     </profiles>
@@ -246,7 +246,7 @@
     <!-- 要激活的 profile id。例如：env-test，则在 pom.xml 或 settings.xml 中对应 id 的 profile 会被激活。如果运行过程中找不到对应的 profile 则忽略配置 -->
     <!-- <activeProfile>env-test</activeProfile> -->
     <!-- </activeProfiles> -->
-      <activeProfiles>
+    <activeProfiles>
         <activeProfile>terminus</activeProfile>
     </activeProfiles>
 </settings>

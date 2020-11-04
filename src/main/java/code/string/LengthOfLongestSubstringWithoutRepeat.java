@@ -13,7 +13,8 @@ import java.util.Set;
  * |\Sigma| = 128∣Σ∣=128。我们需要用到哈希集合来存储出现过的字符，而字符最多有 |\Sigma|∣Σ∣ 个，因此空间复杂度为 O(|\Sigma|)O(∣Σ∣)。
  */
 public class LengthOfLongestSubstringWithoutRepeat {
-    private static final String TEST="hello1world";
+    private static final String TEST = "hello1world";
+
     private static int lengthOfLongestSubstringWithoutRepeat() {
         // 哈希集合HashSet，记录每个字符是否出现过
         Set<Character> occ = new HashSet<>();
