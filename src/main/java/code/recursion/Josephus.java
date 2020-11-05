@@ -62,7 +62,7 @@ public class Josephus {
      * 方法二 列数组+flag
      *
      * @param numberOfPeople 参与的人数
-     * @param numberOfRule 规则
+     * @param numberOfRule   规则
      */
     public static Integer solution3(int numberOfPeople, int numberOfRule) {
         int i;
@@ -93,7 +93,7 @@ public class Josephus {
         while (game[point] > 0) {
             point = (point > numberOfPeople - 2) ? 0 : point + 1;
         }
-        return point+1;
+        return point + 1;
     }
 
     public static void main(String[] args) {
@@ -101,6 +101,6 @@ public class Josephus {
         System.out.println(solution1(5, 3));
         System.out.println(solution2(6, 2, 0));
         //方法二
-        System.out.println(solution3(5,3));
+        System.out.println(solution3(5, 3));
     }
 }
